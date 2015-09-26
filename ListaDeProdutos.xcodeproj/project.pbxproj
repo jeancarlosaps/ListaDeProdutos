@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2FF6731BB21C4D0017C773 /* CustonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FF6721BB21C4D0017C773 /* CustonCollectionViewCell.swift */; };
 		7F70DF6F1BB0465200E89CB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70DF6E1BB0465200E89CB7 /* AppDelegate.swift */; };
 		7F70DF711BB0465200E89CB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F70DF701BB0465200E89CB7 /* ViewController.swift */; };
 		7F70DF741BB0465300E89CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F70DF721BB0465300E89CB7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F2FF6721BB21C4D0017C773 /* CustonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustonCollectionViewCell.swift; sourceTree = "<group>"; };
 		7F70DF6B1BB0465200E89CB7 /* ListaDeProdutos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaDeProdutos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F70DF6E1BB0465200E89CB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F70DF701BB0465200E89CB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				7F70DF6E1BB0465200E89CB7 /* AppDelegate.swift */,
 				7F70DF701BB0465200E89CB7 /* ViewController.swift */,
 				7F70DF721BB0465300E89CB7 /* Main.storyboard */,
+				7F2FF6721BB21C4D0017C773 /* CustonCollectionViewCell.swift */,
 				7F70DF751BB0465300E89CB7 /* Assets.xcassets */,
 				7F70DF771BB0465300E89CB7 /* LaunchScreen.storyboard */,
 				7F70DF7A1BB0465300E89CB7 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				7F70DF711BB0465200E89CB7 /* ViewController.swift in Sources */,
 				7F70DF6F1BB0465200E89CB7 /* AppDelegate.swift in Sources */,
+				7F2FF6731BB21C4D0017C773 /* CustonCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				7F70DF951BB0465300E89CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F70DF961BB0465300E89CB7 /* Build configuration list for PBXNativeTarget "ListaDeProdutosTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				7F70DF981BB0465300E89CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F70DF991BB0465300E89CB7 /* Build configuration list for PBXNativeTarget "ListaDeProdutosUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				7F70DF9B1BB0465300E89CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
