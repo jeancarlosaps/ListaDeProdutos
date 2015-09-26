@@ -34,7 +34,7 @@
                                             <rect key="frame" x="54" y="151" width="42" height="21"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -58,6 +58,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5l-Xa-fQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="842" y="367"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Lwx-XZ-d0y">
+            <objects>
+                <viewController id="VJI-EW-X4p" customClass="DetailViewController" customModule="ListaDeProdutos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kIK-D4-Dow"/>
+                        <viewControllerLayoutGuide type="bottom" id="5hG-Qs-PPw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gRF-kJ-aUh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ksn-wq-SEx">
+                                <rect key="frame" x="0.0" y="62" width="600" height="538"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gxm-4s-sKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1562" y="367"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DCb-h0-caz">
